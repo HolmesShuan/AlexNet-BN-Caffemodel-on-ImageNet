@@ -16,7 +16,7 @@ layer {
   }
   data_param {
     source: "../ilsvrc12_lmdb_shrt_256/ilsvrc12_train_lmdb"
-    batch_size: 200
+    batch_size: 256
     backend: LMDB
   }
 }
@@ -37,7 +37,7 @@ layer {
   }
   data_param {
     source: "../ilsvrc12_lmdb_shrt_256/ilsvrc12_val_lmdb"
-    batch_size: 200
+    batch_size: 50
     backend: LMDB
   }
 }
